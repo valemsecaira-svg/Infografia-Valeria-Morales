@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rabia y vacunación de perros y gatos en México</title>
+<style>
+:root{--bg:#FFF4E5;--ink:#1F2A44;--card:#FFFFFF;--brand:#00695C;--on:#FFFFFF;--acc:#E65100;--line:#1F2A44;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#13202B;--ink:#F6EFE6;--card:#1E3040;--brand:#00695C;--on:#FFFFFF;--acc:#FF9E5E;--line:#F6EFE6}}
+:root[data-theme="dark"]{--bg:#13202B;--ink:#F6EFE6;--card:#1E3040;--brand:#00695C;--on:#FFFFFF;--acc:#FF9E5E;--line:#F6EFE6}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Open Sans",Segoe UI,Arial,sans-serif}
+h1,h2,h3{font-family:"Montserrat","Arial Black",Arial,sans-serif;line-height:1.15;margin:0 0 .5em}
+.wrap{max-width:900px;margin:0 auto;padding:0 18px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:2px solid var(--line);padding:8px 0}
+nav .wrap{display:flex;gap:8px;flex-wrap:wrap}
+button{font:inherit;cursor:pointer}
+nav button,.tab,.vf button,.say{background:var(--brand);color:var(--on);border:0;border-radius:999px;padding:7px 14px;font-weight:700}
+nav button:hover,.tab:hover{outline:3px solid var(--acc)}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+header{padding:22px 0 10px}
+.me{text-align:right;font-weight:700;font-size:15px}
+.me span{border-bottom:2px dashed var(--acc);padding:0 4px}
+.hero{display:grid;grid-template-columns:1fr 130px;gap:18px;align-items:center;margin-top:10px}
+h1{font-size:clamp(30px,6vw,52px)}
+.paw{width:130px;height:130px;animation:bob 3s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px) rotate(-4deg)}}
+section{padding:34px 0;border-top:2px solid var(--line)}
+h2{font-size:clamp(24px,4vw,32px)}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.stat{background:var(--brand);color:var(--on);border-radius:18px;padding:16px}
+.stat b{display:block;font:800 40px "Montserrat",Arial,sans-serif}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.card{background:var(--card);color:var(--ink);border:2px solid var(--line);border-radius:6px 22px 6px 22px;padding:16px;text-align:left;transition:transform .2s}
+.card:hover{transform:translateY(-4px)}
+.card svg{width:38px;height:38px;color:var(--acc);display:block;margin-bottom:6px}
+.card small{opacity:.85}
+.panel{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:16px;margin-top:12px;min-height:90px}
+.tab[aria-selected="true"]{background:var(--acc);color:#1F2A44}
+.cta{background:var(--brand);color:var(--on);border-radius:22px;padding:24px;text-align:center}
+.cta h2{font-size:clamp(26px,5vw,40px)}
+.say{background:var(--on);color:var(--brand)}
+.vf p{margin:.7em 0 .3em;font-weight:700}
+.vf button{margin-right:6px}
+.fb{margin-left:6px}
+#qr{background:#fff;display:inline-block;padding:8px;border-radius:8px}
+dialog{max-width:440px;border:3px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink);padding:22px}
+dialog::backdrop{background:rgba(0,0,0,.55)}
+dialog button{background:var(--brand);color:var(--on);border:0;border-radius:999px;padding:7px 16px;font-weight:700;margin-top:10px}
+.refs p{padding-left:2em;text-indent:-2em;font-size:15px;margin:.6em 0}
+footer{padding:20px 0 40px;font-size:14px;opacity:.9}
+.ov{overflow-x:auto}
+@media (max-width:560px){.hero{grid-template-columns:1fr}.paw{width:90px;height:90px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="paw" viewBox="0 0 64 64"><g fill="currentColor"><ellipse cx="32" cy="42" rx="14" ry="11"/><ellipse cx="14" cy="28" rx="6" ry="8"/><ellipse cx="26" cy="16" rx="6" ry="8"/><ellipse cx="38" cy="16" rx="6" ry="8"/><ellipse cx="50" cy="28" rx="6" ry="8"/></g></symbol>
+<symbol id="home" viewBox="0 0 64 64"><path d="M8 32 32 10l24 22M16 28v26h32V28" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+<symbol id="phone" viewBox="0 0 64 64"><rect x="18" y="6" width="28" height="52" rx="6" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="32" cy="48" r="3" fill="currentColor"/></symbol>
+<symbol id="gift" viewBox="0 0 64 64"><path d="M10 26h44v10H10zM14 36v20h36V36M32 26v30M32 26c-8-14-20-4-8 0M32 26c8-14 20-4 8 0" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+<symbol id="law" viewBox="0 0 64 64"><path d="M32 8v44M16 52h32M10 20h44M10 20 4 36h12zM54 20l-6 16h12z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+</defs></svg>
+
+<nav aria-label="Secciones"><div class="wrap">
+<button data-go="datos">Datos</button><button data-go="conse">Consecuencias</button><button data-go="impacto">Impacto</button><button data-go="soluc">Soluciones</button><button data-go="accion">Actúa</button><button data-go="refs">Referencias</button>
+</div></nav>
+
+<header><div class="wrap">
+<div class="me">Autor/a: <span id="nombre" contenteditable="true" role="textbox" aria-label="Escribe tu nombre completo">Valeria Morales Secaira</span> · <span id="lic" contenteditable="true" role="textbox" aria-label="Licenciatura">Medicina Veterinaria y Zootecnia</span></div>
+<div class="hero">
+<div><h1>Rabia: cómo México la frenó con vacunas</h1>
+<p>Una enfermedad mortal que se previene vacunando a perros y gatos. Toca los elementos para ver más información.</p>
+<button class="say" id="say" aria-label="Escuchar resumen en audio">🔊 Escuchar resumen</button></div>
+<svg class="paw" style="color:var(--acc)" role="img" aria-label="Huella de mascota"><use href="#paw"/></svg>
+</div></div></header>
+
+<main class="wrap">
+<section id="datos"><h2>Datos generales</h2>
+<div class="big">
+<div class="stat"><b data-n="60" data-s="">0</b>casos de rabia humana en 1990 en México</div>
+<div class="stat"><b data-n="0" data-s="">0</b>casos de rabia humana transmitida por perro desde 2006</div>
+<div class="stat"><b data-n="99" data-s="%">0</b>de los casos humanos en el mundo vienen de perros</div>
+<div class="stat"><b data-n="98" data-s="%">0</b>bajó la rabia humana en América de 1983 a 2019</div>
+</div>
+<p style="margin-top:14px">La rabia es una enfermedad viral que se transmite a las personas, sobre todo por mordedura de perros. En 2019, México fue el primer país del mundo validado por la OMS por eliminar la rabia transmitida por perro como problema de salud pública.</p>
+<button class="card" data-k="oms" style="margin-top:6px"><b>¿Qué significa "eliminada"?</b><br><small>Toca para ver qué logró México y qué falta.</small></button>
+</section>
+
+<section id="conse"><h2>Consecuencias</h2>
+<div class="cards">
+<button class="card" data-k="c1"><svg><use href="#paw"/></svg><b>Enfermedad mortal</b><br><small>No tiene cura una vez que aparece.</small></button>
+<button class="card" data-k="c2"><svg><use href="#phone"/></svg><b>60 casos en 1990</b><br><small>Así era México antes de las campañas.</small></button>
+<button class="card" data-k="c3"><svg><use href="#home"/></svg><b>Sigue en fauna silvestre</b><br><small>El virus aún circula; por eso se sigue vacunando.</small></button>
+</div></section>
+
+<section id="impacto"><h2>Impacto social</h2>
+<div class="cards">
+<button class="card" data-k="i1"><svg><use href="#law"/></svg><b>Primer país validado</b><br><small>Reconocimiento de la OMS en 2019.</small></button>
+<button class="card" data-k="i2"><svg><use href="#home"/></svg><b>Un logro de América</b><br><small>La rabia humana bajó 98 % en la región.</small></button>
+<button class="card" data-k="i3"><svg><use href="#paw"/></svg><b>Vacunación constante</b><br><small>Se mantiene cada año para proteger a todos.</small></button>
+</div></section>
+
+<section id="soluc"><h2>Soluciones</h2>
+<div role="tablist" style="display:flex;gap:8px;flex-wrap:wrap">
+<button class="tab" role="tab" aria-selected="true" data-t="0">Vacunar mascotas</button>
+<button class="tab" role="tab" aria-selected="false" data-t="1">Atender agresiones</button>
+<button class="tab" role="tab" aria-selected="false" data-t="2">Vigilancia</button>
+<button class="tab" role="tab" aria-selected="false" data-t="3">Rol del veterinario</button>
+</div>
+<div class="panel" id="panel" aria-live="polite"></div>
+</section>
+
+<section id="accion"><div class="cta">
+<h2>Vacuna a tu perro y a tu gato. Protege a tu familia.</h2>
+<p>Aprovecha las campañas de vacunación antirrábica gratuitas. Si un animal te muerde o rasguña, acude de inmediato a un servicio de salud.</p>
+<p>Escanea el código QR para leer la fuente principal (OPS).</p>
+<div id="qr" role="img" aria-label="Código QR a la nota de la OPS sobre México y la rabia"></div>
+</div>
+<h3 style="margin-top:22px">¿Verdadero o falso?</h3>
+<div class="vf" id="vf"></div>
+</section>
+
+<section id="refs"><h2>Referencias</h2><div class="refs">
+<p>adn40. (s. f.). <i>Día Mundial contra la Rabia: México, ejemplo mundial de prevención</i>. https://www.adn40.mx/salud/dia-mundial-contra-rabia-mexico-libre-lhp/</p>
+<p>Noticias ONU. (2020, 28 de septiembre). <i>La rabia en humanos bajó un 98% entre 1983 y 2019 en América</i>. https://news.un.org/es/story/2020/09/1481312</p>
+<p>Organización Panamericana de la Salud. (2019, 16 de diciembre). <i>México recibe el certificado de validación de eliminación de la rabia humana transmitida por el perro</i>. https://www.paho.org/es/noticias/16-12-2019-mexico-recibe-certificado-validacion-eliminacion-rabia-humana-transmitida-por-0</p>
+</div></section>
+</main>
+<footer><div class="wrap">Datos de la OPS, la ONU y medios que citan a la OMS y a la Secretaría de Salud.</div></footer>
+
+<dialog id="dlg" aria-labelledby="dt"><h3 id="dt"></h3><p id="dp"></p><button id="cl">Cerrar</button></dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+var INFO={
+oms:["Validación de la OMS","La OMS considera que un país está libre de rabia humana transmitida por perro tras dos años sin transmisión de perros a personas. México lo logró con vacunación masiva de perros, sensibilización y tratamiento a personas agredidas. Aun así, el virus sigue circulando en animales silvestres, por eso se debe seguir vacunando."],
+c1:["Enfermedad mortal","La OPS señala que la letalidad y la falta de una cura hacen de la rabia un asunto de extrema importancia para la salud pública. Por eso la prevención es clave."],
+c2:["Antes de las campañas","En 1990 México registraba 60 casos de rabia humana. Bajó a 3 en 1999 y a cero desde 2006."],
+c3:["El virus sigue circulando","La OPS pide continuar las campañas de vacunación de perros y gatos porque el virus de la rabia todavía circula entre animales silvestres."],
+i1:["Primer país del mundo","En 2019, México fue el primer país en recibir la validación de la OMS por eliminar la rabia transmitida por perro como problema de salud pública."],
+i2:["Avance en América","Según la OPS, los casos de rabia humana en América bajaron 98 % entre 1983 y 2019. En 2019 se registraron solo tres casos en personas en la región."],
+i3:["Vacunación constante","México organiza campañas de vacunación para perros y gatos desde los años 90. En la Ciudad de México se vacunan cada año 1.2 millones de perros y gatos."]
+};
+var SOL=[
+"La vacunación masiva de perros y gatos fue la base del éxito de México. La OPS recomienda mantener una alta cobertura de vacunación canina y felina.",
+"Las personas agredidas por animales sospechosos necesitan atención y tratamiento preventivo a tiempo. La OPS recomienda acceso oportuno al 100 % de las personas agredidas.",
+"La vigilancia epidemiológica detecta casos en animales y evita que la rabia regrese. También hay que informar a la comunidad.",
+"El veterinario vacuna, orienta a los dueños y detecta casos sospechosos. Esta recomendación es parte del trabajo general de la profesión, no una cifra de las fuentes."
+];
+var $=function(s){return document.querySelector(s)};
+var dlg=$("#dlg");
+document.querySelectorAll("[data-k]").forEach(function(b){b.onclick=function(){var i=INFO[b.dataset.k];$("#dt").textContent=i[0];$("#dp").textContent=i[1];dlg.showModal()}});
+$("#cl").onclick=function(){dlg.close()};
+dlg.addEventListener("click",function(e){if(e.target===dlg)dlg.close()});
+document.querySelectorAll("[data-go]").forEach(function(b){b.onclick=function(){document.getElementById(b.dataset.go).scrollIntoView()}});
+var tabs=document.querySelectorAll(".tab");
+function setTab(i){tabs.forEach(function(t,j){t.setAttribute("aria-selected",i==j)});$("#panel").textContent=SOL[i]}
+tabs.forEach(function(t){t.onclick=function(){setTab(+t.dataset.t)}});setTab(0);
+var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function count(el){var n=+el.dataset.n,d=+(el.dataset.d||0),s=el.dataset.s,t0=null;
+if(reduce){el.textContent=n.toFixed(d)+s;return}
+function f(t){if(!t0)t0=t;var p=Math.min((t-t0)/1200,1);el.textContent=(n*p).toFixed(d)+s;if(p<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){count(e.target);io.unobserve(e.target)}})});
+document.querySelectorAll("[data-n]").forEach(function(el){io.observe(el)});
+var Q=[["En 2019 México fue validado por la OMS por eliminar la rabia transmitida por perro.",true],["Ya no hace falta vacunar porque el virus desapareció por completo.",false],["La rabia se puede curar fácilmente cuando ya hay síntomas.",false]];
+var vf=$("#vf");
+Q.forEach(function(q){var p=document.createElement("p");p.textContent=q[0];var a=document.createElement("button"),b=document.createElement("button"),f=document.createElement("span");a.textContent="Verdadero";b.textContent="Falso";f.className="fb";
+function r(v){f.textContent=(v===q[1])?"✅ Correcto":"❌ Intenta de nuevo"}
+a.onclick=function(){r(true)};b.onclick=function(){r(false)};
+var w=document.createElement("div");w.append(p,a,b,f);vf.append(w)});
+$("#say").onclick=function(){try{speechSynthesis.cancel();var u=new SpeechSynthesisUtterance("La rabia es una enfermedad mortal que se previene vacunando a perros y gatos. En 1990 México tenía sesenta casos de rabia humana, y desde dos mil seis no hay casos transmitidos por perro. En dos mil diecinueve la OMS validó a México como el primer país en eliminarla como problema de salud pública. Vacuna a tu perro y a tu gato.");u.lang="es-MX";speechSynthesis.speak(u)}catch(e){}};
+try{if(window.QRCode)new QRCode($("#qr"),{text:"https://www.paho.org/es/noticias/16-12-2019-mexico-recibe-certificado-validacion-eliminacion-rabia-humana-transmitida-por-0",width:128,height:128})}catch(e){}
+try{var n=localStorage.getItem("nom");if(n)$("#nombre").textContent=n}catch(e){}
+$("#nombre").addEventListener("input",function(){try{localStorage.setItem("nom",this.textContent)}catch(e){}});
+</script>
+</body>
+</html>
